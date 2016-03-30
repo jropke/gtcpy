@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Akatsukii\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Akatsukii\Desktop\copias seguridad android\copia seguridad 26-03 - copia\PhoneBook2\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-8fc1fb9db88ee0ed3ceaeb79dda5cd9eb29fa0d4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akatsukii\Desktop\copias seguridad android\copia seguridad 26-03 - copia\PhoneBook2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="C:\Users\Akatsukii\Desktop\copias seguridad android\copia seguridad 26-03 - copia\PhoneBook2\app\build\intermediates\pre-dexed\release\classes-83bc4a89b23e2a8a94673b082ce124f3458b172b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbars="vertical"
+	>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		<TableLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:text="@string/searchby_initials" />
+
+				<EditText
+					android:id="@+id/searchby_initials"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:hint="escriba 1er. nombre"
+					android:layout_marginTop="5dip"
+					android:ems="9"
+					android:text="" />
+
+
+			</TableRow>
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+			</TableRow>
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:text="@string/searchby_ap"
+					android:layout_column="0" />
+
+				<EditText
+					android:id="@+id/searchby_ap"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:hint="escriba 1er. apellido"
+					android:ems="9"
+					android:text=""
+					android:layout_column="1" />
+
+			</TableRow>
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:text="@string/searchby_phone"
+					android:layout_column="0" />
+
+				<EditText
+					android:id="@+id/searchby_phone"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:hint="escriba n° teléfono"
+					android:ems="9"
+					android:inputType="phone"
+					android:text=""
+					android:layout_column="1" />
+
+			</TableRow>
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:text="@string/searchby_manager"
+					android:layout_column="0" />
+
+				<EditText
+					android:id="@+id/searchby_manager"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:hint="prefijo telefónico"
+					android:ems="9"
+					android:text=""
+					android:layout_column="1" />
+			</TableRow>
+			<TableRow
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:text="@string/searchby_ciudad"
+					android:layout_column="0" />
+
+				<EditText
+					android:id="@+id/searchby_ciudad"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:hint="escriba la ciudad"
+					android:ems="9"
+					android:text=""
+					android:layout_column="1" />
+			</TableRow>
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:text="@string/searchby_depName"
+					android:layout_column="0" />
+
+				<Spinner
+					android:id="@+id/searchby_depName"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:layout_marginBottom="5dip"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="5dip"
+					android:layout_column="1" />
+			</TableRow>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginBottom="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="5dip"
+				android:layout_marginTop="5dip"
+				android:text="@string/searchby_nombre" />
+
+			<EditText
+				android:id="@+id/searchby_nombre"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:layout_marginBottom="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="5dip"
+				android:layout_marginTop="5dip"
+				android:ems="9"
+				android:text=""
+				android:hint="escribir solamente si se conoce el nombre completo.."
+				android:layout_span="3" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginBottom="5dip"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="5dip"
+				android:layout_marginTop="5dip"
+				android:text="@string/info_nota" />
+		</TableLayout>
+	</LinearLayout>
+</ScrollView>

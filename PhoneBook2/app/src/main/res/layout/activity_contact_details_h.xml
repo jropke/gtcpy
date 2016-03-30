@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+        <ImageView
+            android:id="@+id/detail_photo"
+            android:layout_width="933dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/splash_hotel_normal"
+            android:layout_x="-337dp"
+            android:layout_y="16dp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/txtLastName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/txtNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre_txt "
+            android:textSize="30sp"
+            android:layout_alignTop="@+id/txtNam"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calle"
+            android:textSize="20sp"
+            android:layout_below="@+id/txtPhone"
+            android:layout_toRightOf="@+id/txtPhn"
+            android:layout_toEndOf="@+id/txtPhn"
+            android:layout_marginTop="19dp" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:text="Teléfono_txt "
+            android:textSize="20sp"
+            android:layout_below="@+id/txtEmailID"
+            android:layout_toRightOf="@+id/txtPhn"
+            android:layout_toEndOf="@+id/txtPhn"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtEmailID"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Localidad_txt "
+            android:textSize="20sp"
+            android:layout_below="@+id/txtFirstName"
+            android:layout_toRightOf="@+id/txtPhn"
+            android:layout_toEndOf="@+id/txtPhn"
+            android:layout_marginTop="19dp" />
+
+
+        <ImageButton
+            android:id="@+id/txtPhn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@android:drawable/ic_menu_call"
+            android:layout_alignBottom="@+id/txtPhone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:id="@+id/txtema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/btn_map"
+            android:layout_alignBottom="@+id/txtEmailID"
+            android:layout_toLeftOf="@+id/txtEmailID"
+            android:layout_toRightOf="@+id/txtNam"
+            android:layout_toEndOf="@+id/txtNam"
+            android:layout_alignTop="@+id/txtEmailID" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

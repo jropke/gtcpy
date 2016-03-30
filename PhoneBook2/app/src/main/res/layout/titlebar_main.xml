@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+   	 
+     <TextView
+         android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:text="@string/title_mainpage" 
+        android:textSize="16dp"/>
+     <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentRight="true"
+	    android:orientation="horizontal"
+		 android:weightSum="1">
+
+		 <ImageButton
+			 android:id="@+id/button_hot"
+			 android:layout_width="38dp"
+			 android:layout_height="38dp"
+			 android:layout_gravity="center"
+			 android:layout_marginRight="5dp"
+			 android:onClick="lanzar_hot"
+			 android:background="@drawable/btn_hotel"
+			 android:textOn=""
+			 android:textOff=""
+			 />
+
+		 <ImageButton
+			 android:id="@+id/button1"
+			 android:layout_width="38dp"
+			 android:layout_height="38dp"
+			 android:layout_gravity="center"
+			 android:layout_marginRight="5dp"
+			 android:onClick="lanzar"
+			 android:background="@drawable/btn_emerg"
+			 android:textOn=""
+			 android:textOff=""
+			 android:baselineAlignBottom="true" />
+
+
+	    <ToggleButton
+	        android:id="@+id/imagebtn_favoritelist"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:layout_marginRight="5dp"
+	    	android:textOn=""
+            android:textOff=""
+	        android:background="@layout/selector_btn_favoritelist" />
+	    <ToggleButton
+	        android:id="@+id/imagebtn_detaillist"
+        	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:layout_marginRight="5dp"
+	    	android:textOn=""
+            android:textOff=""
+        	android:background="@layout/selector_btn_detaillist" />
+	    <ImageButton
+	        android:id="@+id/imagebtn_search"
+        	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:layout_marginRight="5dp"
+        	android:background="@layout/selector_btn_search" />
+	    <ImageButton
+	        android:id="@+id/imagebtn_more"
+        	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:layout_marginRight="5dp"
+        	android:background="@layout/selector_btn_more" />
+    </LinearLayout>
+</RelativeLayout>

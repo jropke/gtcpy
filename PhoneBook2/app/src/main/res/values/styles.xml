@@ -1,0 +1,58 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- color de fondo de toda la app -->
+
+    </style>
+    
+  	<style name="TitleBarBackground">
+       <!-- item name="android:background">#2196F3</item -->
+        <item name="android:background">#26255f</item>
+    </style>
+
+	<style name="PhoneBookList" parent="AppTheme">
+	    <!-- <item name="android:windowTitleSize">50dp</item> -->
+	     <item name="android:windowTitleBackgroundStyle">@style/TitleBarBackground</item>
+	     <item name="android:windowTitleSize">56dip</item>
+	     <item name="android:windowContentOverlay">@android:color/transparent</item>
+	</style>
+	<style name="NoTitle">
+	    <item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+   		<item name="android:button">@layout/selector_checkbox</item>
+   		<item name="android:paddingLeft">15.0dip</item>
+   		<item name="android:maxHeight">10.0dip</item>
+   </style>
+   <color name="transparent">#0000</color>
+   <style name="Transparent">
+       <item name="android:windowBackground">@color/transparent</item>
+       <item name="android:windowIsTranslucent">true</item>
+       <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+
+
+
+
+           <item name="android:textColorPrimary">@color/primary_text</item>
+           <item name="android:textColorSecondary">@color/secondary_text</item>
+           <item name="android:textColorTertiary">@color/tertiary_text</item>
+
+           <item name="android:colorActivatedHighlight">@color/light_color</item>
+           <item name="android:colorPressedHighlight">@color/light_color</item>
+           <item name="android:colorLongPressedHighlight">@color/light_color</item>
+
+
+
+
+   </style>
+</resources>

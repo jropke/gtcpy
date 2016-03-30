@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/detail_photo"
+                        android:layout_width="@dimen/photo_width"
+                        android:layout_height="@dimen/photo_height"
+                        android:layout_marginTop="@dimen/photo_top_margin"
+                        android:layout_marginLeft="@dimen/photo_left_margin"
+                        android:src="@drawable/photo" />
+                    <ImageView
+                        android:layout_width="@dimen/photoframe_width"
+                        android:layout_height="@dimen/photoframe_height"
+                        android:src="@drawable/photoframe" />
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id ="@+id/detail_title"
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_marginTop="@dimen/photo_top_margin"
+                            android:paddingTop ="10dp"
+                            android:paddingBottom ="10dp"
+                            android:layout_weight="3.0"
+                            android:layout_span="3"
+                            android:paddingLeft="50dp"
+                            android:text="NOMBRE"
+                            android:textColor="#ffffff"
+                            android:textSize="30dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="@string/detailpage_depname"
+                            android:src="@android:drawable/ic_menu_compass"
+                            android:textSize="16sp"
+                            android:textColor="#34b3e1"
+                            android:paddingTop ="10dp"
+                            android:paddingBottom ="10dp"
+                            android:paddingLeft ="5dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id ="@+id/detail_department"
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_weight="3.0"
+                            android:paddingTop ="18dp"
+                            android:text="Ciudad"
+                            android:paddingBottom ="10dp"
+                            android:layout_column="1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="@string/detailpage_localname"
+                            android:src="@android:drawable/ic_menu_mylocation"
+                            android:textSize="16sp"
+                            android:textColor="#34b3e1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom ="10dp"
+                            android:paddingLeft ="5dp"
+                            android:textStyle="bold"
+                            android:layout_column="8" />
+
+                        <TextView
+                            android:id ="@+id/detail_localname"
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_weight="3.0"
+                            android:paddingTop ="18dp"
+                            android:text="Departamento"
+                            android:paddingBottom ="10dp"
+                            android:layout_column="17" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_weight="1.0"
+                            android:text="@string/detailpage_depno"
+                            android:textSize="16sp"
+                            android:textColor="#34b3e1"
+                            android:paddingTop="10dp"
+                            android:src="@android:drawable/ic_dialog_map"
+                            android:paddingLeft ="0dp"
+                            android:textStyle="bold"
+                            android:layout_column="1" />
+
+                        <TextView
+                            android:id ="@+id/detail_departmentNo"
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_weight="3.0"
+                            android:paddingTop ="17dp"
+                            android:text="DUMMY"
+                            android:paddingBottom ="10dp"
+                            android:layout_column="2" />
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                    <ImageView
+                        android:id="@+id/imagebtn_call2"
+                        android:layout_width="wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="@string/detailpage_phone"
+                        android:padding="10dp"
+                        android:src="@android:drawable/ic_menu_call"
+                        android:textSize="16sp"
+                        android:textColor="#34b3e1"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id ="@+id/detail_phone"
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:text="DUMMY"
+                        android:layout_weight="3.0"
+
+                        android:paddingTop="15dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_weight="1.0"
+                        android:src="@android:drawable/ic_menu_info_details"
+                        android:padding="10dp"
+                        android:textSize="16sp"
+                        android:textColor="#34b3e1"
+                        android:textStyle="bold"
+                        android:layout_column="8" />
+
+                    <TextView
+                        android:id ="@+id/detail_manager"
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:text="DUMMY"
+                        android:layout_weight="3.0"
+                        android:paddingTop="15dp"
+                        android:layout_column="24" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

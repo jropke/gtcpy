@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="info_update_package">Finalizado la actualización de datos.</string>
+    <string name="info_call">¿Quieres realizar la llamada?</string>
+    <string name="info_sms">¿Quieres enviar un mensaje?</string>
+    <string name="info_addcontact">¿Quieres agregar este número a tu lista de contactos?</string>
+    <string name="info_addfavorite">¿Quieres agregar a esta persona en tu lista de favoritos?</string>
+    <string name="info_removefavorite">¿Quieres remover a esta persona de tu lista de favoritos?</string>
+    <string name="info_nota">Nota: todos los campos son opcionales.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="error_load_phonebook">Error al obtener el ítem:</string>
+	<string name="error_select_package">Favor seleccione un dato!</string>
+	<string name="error_update_package">Actualización fallida!</string>
+	<string name="error_reload_data">Error al recargar la Guía Telefónica:</string>
+	<string name="error_notfindmap">Nombre no encontrado:</string>
+	<string name="error_already_in_favoritelist" >Esta persona ya pertenece a tu lista de favoritos.</string>
+	<string name="error_save_favorite" >Falló el guardado de la persona a favorito!</string>
+	<string name="error_remove_favorite" >Falló al remover la persona de tu lista de favoritos!</string>
+	<string name="error_no_right_to_access">No tienes acceso!</string>
+	<string name="error_invalid_update_interval">Accion no válida!</string>
+</resources>
